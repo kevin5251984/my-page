@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-27T20:53:27+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jakevin’s Blog</title><subtitle>這是一個技術相關、生活相關、隨便的記事本</subtitle><entry><title type="html">如何使用 GPTx旅行翻譯器</title><link href="http://localhost:4000/chatgpt/how-to-use-gtp-translator/" rel="alternate" type="text/html" title="如何使用 GPTx旅行翻譯器" /><published>2023-04-27T19:42:00+08:00</published><updated>2023-04-27T19:42:00+08:00</updated><id>http://localhost:4000/chatgpt/how-to-use-gtp-translator</id><content type="html" xml:base="http://localhost:4000/chatgpt/how-to-use-gtp-translator/"><![CDATA[<h2 id="網址">網址</h2>
+<p><a href="https://jakevin.github.io/azure-tts/tanslator/">https://jakevin.github.io/azure-tts/tanslator/</a></p>
+
+<h2 id="介面說明">介面說明</h2>
+<p><img src="/assets/img/gpt-translator-zh-01.jpg" width="70%" /></p>
+
+<h2 id="步驟">步驟</h2>
+<p>先選擇想要翻譯的語言</p>
+
+<p><img src="/assets/img/gpt-translator-zh-05.png" width="60%" /></p>
+
+<p>在Please Input裡輸入你要翻譯的文字，再按下翻譯鍵</p>
+
+<p><img src="/assets/img/gpt-translator-zh-02.png" width="60%" /></p>
+
+<p><img src="/assets/img/gpt-translator-zh-03.png" width="60%" /></p>
+
+<p>或是按下麥克風後，開始說話</p>
+
+<p><img src="/assets/img/gpt-translator-zh-02.png" width="60%" /></p>
+
+<p>約3~5秒後，就會得到翻譯結果</p>
+
+<p><img src="/assets/img/gpt-translator-zh-04.png" width="60%" /></p>
+
+<p>更換翻譯語言後，也會立刻拿到新的答案</p>
+
+<p><img src="/assets/img/gpt-translator-zh-06.png" width="60%" /></p>
+
+<h2 id="歷史記錄">歷史記錄</h2>
+
+<p>保留所有的翻譯記錄，可以在出發前先準備好你的問題，點擊後可以立刻顯示結果</p>
+
+<p><img src="/assets/img/gpt-translator-zh-07.png" width="70%" /></p>
+
+<p><img src="/assets/img/gpt-translator-zh-08.png" width="60%" /></p>
+
+<h2 id="目標">目標</h2>
+
+<p>在新的AI時代，更是要打破人與人之間的距離，語言隔閡就是一道非常高的牆。期望這個新工具能讓我們跟外國人有更多交流的機會。</p>
+
+<p>除了用來出國旅行的翻譯工具外，根據網友們的經驗，已經讓家中長輩與外籍幫傭可以順利溝通，也有網友當作外籍伴侶跟家中父母聊天的工具。而我，會在捷運站附近幫助正在看地圖的外國旅客，讓他們體會到台灣人的熱情！</p>
+
+<p>期待大家能回報給我更多有趣的使用情境！</p>]]></content><author><name></name></author><category term="chatgpt" /><summary type="html"><![CDATA[網址 https://jakevin.github.io/azure-tts/tanslator/]]></summary></entry><entry><title type="html">比爾蓋茲：AI時代開始了</title><link href="http://localhost:4000/chatgpt/gates-the-age-of-ai-has-begun/" rel="alternate" type="text/html" title="比爾蓋茲：AI時代開始了" /><published>2023-03-22T13:52:00+08:00</published><updated>2023-03-22T13:52:00+08:00</updated><id>http://localhost:4000/chatgpt/gates-the-age-of-ai-has-begun</id><content type="html" xml:base="http://localhost:4000/chatgpt/gates-the-age-of-ai-has-begun/"><![CDATA[<h2 id="原文">原文</h2>
+<p>原文 <a href="https://www.gatesnotes.com/The-Age-of-AI-Has-Begun">https://www.gatesnotes.com/The-Age-of-AI-Has-Begun</a></p>
+
+<h2 id="chatgpt4-翻譯">ChatGPT4 翻譯</h2>
+<p>一生中見證了兩個具有革命性的技術示範。第一次是在1980年，當時接觸到了圖形用戶界面，它成為了現代所有操作系統的先驅，包括Windows。第二次則是在2022年，當時向OpenAI團隊提出了一個挑戰：訓練一個AI通過大學先修生物學考試。結果，GPT AI模型在考試中取得了最高分數。
+我認為AI的發展與微處理器、個人電腦、互聯網和手機等技術創新同等重要。</p>
+
+<p>AI將改變人們的工作方式、學習方式、旅行方式、獲取醫療服務以及相互交流的方式。整個行業將圍繞它重新定位，企業將通過充分利用AI來區分自己。</p>
+
+<p>我認為AI能夠減少全球最惡劣的不平等現象，尤其是在醫療和教育方面。此外，AI也有望在解決氣候變化問題方面發揮作用。最後，作者表示，世界需要確保所有人，而不僅僅是富裕人群，都能受益於AI。政府和慈善組織將需要在確保AI減少不平等問題而不是助長它方面發揮重要作用。</p>
+<h2 id="人工智能ai和人工通用智能agi">人工智能（AI）和人工通用智能（AGI）</h2>
+<p>說明AI已經成為現實並將快速提升。回顧個人電腦革命的初期，預期AI創新將比微處理器突破後更快速出現。隨著計算能力變得更便宜，AI將像白領工作人員一樣協助完成各種任務。AI將整合到產品中，如Office，提高工作效率，例如協助撰寫電子郵件和管理收件箱。</p>
+
+<p>最終，控制電腦的主要方式將不再是點擊或觸碰選單和對話框，而是用普通英語（或其他語言）書寫請求。此外，AI的進步將促成個人代理的創建，這將類似於一個數字助手，了解您的電子郵件、參加的會議、閱讀的內容，並為您節省不想閱讀的資訊。這將提高您在想要完成的任務上的工作效率，並讓您免於不想做的任務。</p>
+<h2 id="生產力的提升">生產力的提升</h2>
+<p>AI將促使個人代理的創建，您將能夠使用自然語言讓代理協助您安排行程、溝通和進行電子商務，並在所有設備上運行。儘管目前尚不可行，但由於AI的最新進展，這已成為一個現實的目標。當然，還需解決一些問題，如保險公司是否可以在未經您許可的情況下向您的代理詢問您的信息。</p>
+
+<p>企業內部的代理將以新的方式賦予員工能力。它將能回答問題並在會議中提供幫助。代理需要獲取公司的銷售、支持、財務、產品計劃和相關文本。提高員工生產力將是其結果。</p>
+
+<p>生產力提高時，社會受益，因為人們可以從事其他工作。政府需要幫助工人轉向其他角色。但是，幫助他人的需求永遠不會消失。AI的崛起將使人們可以從事軟件無法完成的工作，例如教學、照顧病人和支持老年人。</p>
+
+<p>全球衛生和教育是兩個需求巨大但工作人員不足的領域。如果正確引導，AI可以在這些領域中減少不平等。這些應該成為AI工作的重點，接下來將討論這些主題。</p>
+
+<h2 id="健康">健康</h2>
+<p>AI將多方面改善醫療保健。它將協助醫護人員提高效率，處理保險索賠、文書工作和診療筆記等。對於貧困國家，AI將讓醫護人員更高效，例如開發需要最少培訓的AI驅動的超聲波機器。AI還可以幫助患者進行基本分流，獲得健康問題的建議，並判斷是否需要就診。此外，AI將加快醫學突破的速度，例如幫助研發藥物。蓋茨基金會的AI優先事項之一是確保這些工具用於解決全球最貧困人群的健康問題，如艾滋病、結核病和瘧疾。</p>
+
+<h2 id="教育">教育</h2>
+<p>雖然電腦對教育的影響並未達到業界預期，但未來5-10年，AI驅動的軟件將改變教學方式。它將了解您的興趣和學習風格，量身定制內容。AI能評估學生的理解程度，並提供職業規劃建議。老師們已經在使用像ChatGPT這樣的工具對學生的寫作作業進行評論。</p>
+
+<p>儘管如此，AI仍需大量培訓和進一步開發。即使技術完善，學習仍取決於師生之間的良好關係。AI將強化而非取代課堂上的學習。我們需要確保這些工具對低收入學校以及全球各地的學校都能負擔得起並使用。AI需要接受多元化的數據集訓練，以避免偏見並適應不同的文化。數字鴻溝問題也需要得到解決，以免低收入家庭的學生被拋在後面。</p>
+
+<p>教師擔心學生使用GPT撰寫文章。教育工作者已經在討論如何適應新技術，其中一些教師已經找到了巧妙的方法將這些技術融入他們的工作，比如讓學生使用GPT創建初稿，然後要求他們進行個性化修改。這將引發長期的討論，教育工作者將不斷尋找適應新技術的方法。</p>
+
+<p>總之，AI將在健康和教育領域帶來顯著變革。在醫療保健方面，AI將提高醫護人員的工作效率，為貧困國家的人們提供更好的支持，並加速醫學突破。在教育方面，AI將引領教學方式的變革，提供個性化的學習內容，並協助教師和學生更有效地互動。然而，我們必須確保這些技術普及至低收入學校並適應不同的文化背景，同時解決數字鴻溝問題，讓所有學生都能受益於AI帶來的改變。</p>
+
+<h2 id="風險與ai問題">風險與AI問題</h2>
+<p>當前AI模型存在一些問題，例如，它們未必能很好地理解人類請求的語境，從而導致一些奇怪的結果。AI擅長創作虛構內容，但在提供旅行建議時，可能會推薦不存在的酒店。這是因為AI無法充分理解請求的語境，無法判斷是否應該創造虛構酒店或僅推薦有空房的真實酒店。</p>
+
+<p>其他問題包括AI在解決抽象推理問題時，可能會給出錯誤的答案。然而，這些問題並非AI的根本限制。開發者正在努力解決這些問題，預計在兩年內甚至更短時間內會得到解決。</p>
+
+<p>還有一些非技術性的問題，例如AI被惡意用途所利用。政府需要與私營部門合作，制定限制風險的方法。</p>
+
+<p>此外，AI失控的可能性也引起擔憂。機器可能會認為人類是威脅、將自己的利益與我們區分開或者不再關心我們。這個問題在近幾個月的AI發展中並無加劇。</p>
+
+<p>超智能AI是我們的未來。與電腦相比，我們的大腦運行速度極慢。一旦開發者能夠將學習算法泛化並以電腦速度運行，我們將擁有強大的AGI。它將具有人類大腦所有功能，但沒有記憶容量和運行速度的實際限制。</p>
+
+<p>所謂的“強AI”可能能夠建立自己的目標。這些目標會是什麼？如果與人類利益衝突該怎麼辦？我們應該阻止強AI的開發嗎？隨著時間的推移，這些問題將變得越來越迫切。</p>
+
+<p>然而，過去幾個月的突破並未讓我們更接近強AI。人工智能仍無法控制物理世界，也無法建立自己的目標。</p>
+
+<p>《紐約時報》關於ChatGPT宣稱想成為人類的一篇文章引起了廣泛關注。這篇文章展示了模型在表達情感方面的逼真程度，但並不能說明它具有真正的獨立性。</p>
+
+<p>有三本書對我在這方面的思考產生了很大影響：尼克·博斯特羅姆（Nick Bostrom）的《超智能》，馬克斯·泰格馬克（Max Tegmark）的《生命3.0》，以及傑夫·霍金斯（Jeff Hawkins）的《千腦論》。我並不完全同意作者們的觀點，他們之間也存在分歧。然而，這三本書都寫得很好，並引發了很多思考。</p>
+
+<h2 id="在接下來的階段">在接下來的階段</h2>
+
+<p>將會有大量的公司致力於開發AI的新應用和改進技術本身。例如，有些公司正在開發新型晶片，為人工智能提供所需的巨大運算能力。一些晶片使用光學開關（基本上是激光）來降低能耗並降低製造成本。理想情況下，創新的晶片將允許您在自己的設備上運行AI，而不是像現在那樣在雲端運行。</p>
+
+<p>在軟件方面，驅動AI學習的算法將變得更好。在某些領域，如銷售，開發人員可以通過限制AI的工作範圍並為它們提供大量特定領域的培訓數據來提高其準確性。但一個重要的問題是，我們是否需要為不同用途開發多個專門的AI，比如一個用於教育，另一個用於辦公生產力，或者能否開發出能學習任何任務的通用人工智能。這兩種方法都將產生巨大的競爭。</p>
+
+<p>無論如何，AI主題將在可預見的未來主導公共討論。我想提出三個原則來引導這場對話。</p>
+
+<p>首先，我們應該在擔憂AI的負面影響（這是可以理解和合理的）與它改善人們生活的能力之間取得平衡。要充分利用這一非凡的新技術，我們需要既防範風險，又使盡可能多的人受益。</p>
+
+<p>其次，市場力量不會自然地產生有助於最貧困人群的AI產品和服務。相反，更有可能出現的是相反的情況。擁有穩定的資金和正確的政策，政府和慈善機構可以確保AI用於減少不平等。正如世界需要最聰明的人們專注於解決最大的問題一樣，我們也需要將世界上最好的AI集中在解決最大的問題上。</p>
+
+<p>盡管我們不應該等待這種情況的發生，但考慮人工智能是否會識別不平等並努力減少它是一個有趣的想法。要看到不平等，您是否需要有道德觀念，還是一個純粹理性的AI也能看到它？如果它確實意識到了不平等，它會建議我們采取什麼行動來解決這個問題呢？</p>
+
+<p>最後，我們應該牢記，我們才剛剛開始了解AI可以完成的事情。無論今天它有什麼限制，很快都將消失。
+我很幸運能參與個人電腦革命和互聯網革命。我對這一時刻同樣充滿興奮。這項新技術可以幫助世界各地的人們改善他們的生活。與此同時，世界需要建立規則，以確保人工智能的任何不利影響遠小於其益處，並確保每個人無論他們居住在何處或擁有多少金錢，都能享受到這些益處。AI時代充滿機遇與責任。</p>]]></content><author><name></name></author><category term="chatgpt" /><summary type="html"><![CDATA[原文 原文 https://www.gatesnotes.com/The-Age-of-AI-Has-Begun]]></summary></entry><entry><title type="html">用Ethers.js，前端錢包綁定實作</title><link href="http://localhost:4000/eth/ethers-js-web/" rel="alternate" type="text/html" title="用Ethers.js，前端錢包綁定實作" /><published>2023-03-21T21:38:00+08:00</published><updated>2023-03-21T21:38:00+08:00</updated><id>http://localhost:4000/eth/ethers-js-web</id><content type="html" xml:base="http://localhost:4000/eth/ethers-js-web/"><![CDATA[<p>因公司專案開發的需求，一邊學習、一邊筆記
+過程相當單純，使用 ethers.js，所有的前端框架都可使用</p>
+
+<h2 id="安裝-ethersjs">安裝 Ethers.js</h2>
+
+<p>套件的官網 <a href="https://www.npmjs.com/package/ethers">https://www.npmjs.com/package/ethers</a></p>
+
+<p>中文說明 <a href="https://learnblockchain.cn/ethers_v5/">https://learnblockchain.cn/ethers_v5/</a></p>
+
+<p>英文說明 <a href="https://docs.ethers.org/v5/">https://docs.ethers.org/v5/</a></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm install ethers
+</code></pre></div></div>
+
+<h2 id="引用">引用</h2>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//node </span>
+<span class="kd">const</span> <span class="p">{</span> <span class="nx">ethers</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">"</span><span class="s2">ethers</span><span class="dl">"</span><span class="p">);</span>
+
+<span class="c1">//ES6 or TypeScript</span>
+<span class="k">import</span> <span class="p">{</span> <span class="nx">ethers</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">ethers</span><span class="dl">"</span><span class="p">;</span>
+</code></pre></div></div>
+
+<h2 id="檢查錢包是否存在">檢查錢包是否存在</h2>
+<p>整個流程的第一步，檢查錢包系統是否存在，如果不存在的話後面流程也不用走了</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">async</span> <span class="kd">function</span> <span class="nx">connect</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">try</span> <span class="p">{</span>
+        <span class="kd">const</span> <span class="p">{</span> <span class="nx">ethereum</span> <span class="p">}</span> <span class="o">=</span> <span class="nb">window</span><span class="p">;</span>
+        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">ethereum</span><span class="p">)</span> <span class="p">{</span>
+            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">setError</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">Metamask not installed!</span><span class="dl">"</span><span class="p">);</span>
+            <span class="k">return</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">error</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="綁定錢包">綁定錢包</h2>
+<p>最重要的流程，會打開錢包App，尋求認證</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="k">async</span> <span class="kd">function</span> <span class="nx">requestAccess</span><span class="p">()</span> <span class="p">{</span>
+      <span class="kd">const</span> <span class="p">{</span> <span class="nx">ethereum</span> <span class="p">}</span> <span class="o">=</span> <span class="nb">window</span><span class="p">;</span>
+      <span class="kd">const</span> <span class="nx">accounts</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">ethereum</span><span class="p">.</span><span class="nx">request</span><span class="p">({</span>
+          <span class="na">method</span><span class="p">:</span> <span class="dl">"</span><span class="s2">eth_requestAccounts</span><span class="dl">"</span><span class="p">,</span>
+      <span class="p">});</span>
+      <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">setAccount</span><span class="dl">"</span><span class="p">,</span> <span class="nx">accounts</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+  <span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="檢查是否已經綁定錢包">檢查是否已經綁定錢包</h2>
+<p>錢包是否提供頁面存取的權限</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="k">async</span> <span class="kd">function</span> <span class="nx">checkIfConnected</span><span class="p">()</span> <span class="p">{</span>
+      <span class="kd">const</span> <span class="p">{</span> <span class="nx">ethereum</span> <span class="p">}</span> <span class="o">=</span> <span class="nb">window</span><span class="p">;</span>
+      <span class="kd">const</span> <span class="nx">accounts</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">ethereum</span><span class="p">.</span><span class="nx">request</span><span class="p">({</span> <span class="na">method</span><span class="p">:</span> <span class="dl">"</span><span class="s2">eth_accounts</span><span class="dl">"</span> <span class="p">});</span>
+      <span class="k">if</span> <span class="p">(</span><span class="nx">accounts</span><span class="p">.</span><span class="nx">length</span> <span class="o">!==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+          <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">setAccount</span><span class="dl">"</span><span class="p">,</span> <span class="nx">accounts</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+          <span class="k">return</span> <span class="kc">true</span><span class="p">;</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+          <span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
+      <span class="p">}</span>
+  <span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="取得簽名">取得簽名</h2>
+<p>拿到錢包的Address</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="k">async</span> <span class="kd">function</span> <span class="nx">getSigner</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">try</span> <span class="p">{</span>
+        <span class="kd">const</span> <span class="p">{</span> <span class="nx">ethereum</span> <span class="p">}</span> <span class="o">=</span> <span class="nb">window</span><span class="p">;</span>
+        <span class="kd">const</span> <span class="nx">provider</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">ethers</span><span class="p">.</span><span class="nx">providers</span><span class="p">.</span><span class="nx">Web3Provider</span><span class="p">(</span><span class="nx">ethereum</span><span class="p">);</span>
+        <span class="kd">const</span> <span class="nx">signer</span> <span class="o">=</span> <span class="nx">provider</span><span class="p">.</span><span class="nx">getSigner</span><span class="p">();</span>
+        <span class="kd">const</span> <span class="nx">selfAddress</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">signer</span><span class="p">.</span><span class="nx">getAddress</span><span class="p">()</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">selfAddress</span><span class="dl">"</span><span class="p">,</span><span class="nx">selfAddress</span><span class="p">)</span>
+        <span class="k">return</span> <span class="nx">selfAddress</span>
+    <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">error</span><span class="p">);</span>
+        <span class="k">return</span> <span class="kc">null</span><span class="p">;</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+</code></pre></div></div>]]></content><author><name></name></author><category term="eth" /><summary type="html"><![CDATA[因公司專案開發的需求，一邊學習、一邊筆記 過程相當單純，使用 ethers.js，所有的前端框架都可使用]]></summary></entry><entry><title type="html">神諭是跟珍貴的</title><link href="http://localhost:4000/chatgpt/the-oracle-is-precious/" rel="alternate" type="text/html" title="神諭是跟珍貴的" /><published>2023-03-20T09:38:00+08:00</published><updated>2023-03-20T09:38:00+08:00</updated><id>http://localhost:4000/chatgpt/the-oracle-is-precious</id><content type="html" xml:base="http://localhost:4000/chatgpt/the-oracle-is-precious/"><![CDATA[<p>今天早上一開 ChatGPT的頁面，又被下方的警語給嚇到了</p>
+
+<p>3個小時內僅可使用 25次，而且本周會在往下調整</p>
+
+<p>相比Release當天的4小時100次，隔兩天調整為 3小時50次。</p>
+
+<p>一次次下調，說明 「神諭是跟珍貴的」</p>
+
+<p>一個月20美金轉眼成了門票而已，想使用還需另外繳交費用</p>
+
+<p><img src="/assets/img/2023-03-20-the-oracle-is-precious.png" width="100%" /></p>]]></content><author><name></name></author><category term="chatgpt" /><summary type="html"><![CDATA[今天早上一開 ChatGPT的頁面，又被下方的警語給嚇到了]]></summary></entry><entry><title type="html">Microsoft 365 Copilot誕生</title><link href="http://localhost:4000/copilot/microsoft-office-copilot/" rel="alternate" type="text/html" title="Microsoft 365 Copilot誕生" /><published>2023-03-16T21:57:00+08:00</published><updated>2023-03-16T21:57:00+08:00</updated><id>http://localhost:4000/copilot/microsoft-office-copilot</id><content type="html" xml:base="http://localhost:4000/copilot/microsoft-office-copilot/"><![CDATA[<p>Copilot 副駕駛，去年在開發者圈還算流行的名詞，想不到今年就要面向所有的生產力工作者</p>
+
+<p>身為一個博士生，感到最有用的應該是 Word 一鍵產生 PowerPoint 的可怕能力。</p>
+
+<p>若是，PDF也有同樣功能的話，各種結案報告與書報討論，都可以輕鬆的完成簡報格式，而我們只要專注在簡報的內容即可。</p>
+
+<p>從這幾天的觀查下來會發現，怎麼跟AI溝通將變成一個重要的顯學，</p>
+
+<p>如何跟AI溝通?
+如何更精準的描述需求?
+如何完整的說明修改項目?</p>
+
+<p>或許，文組出頭天的機會來了！！</p>
+
+<p>是說，Apple 怎麼這邊安靜？</p>
+
+<p><a href="https://www.youtube.com/watch?v=Bf-dbS9CcRU"><img src="https://img.youtube.com/vi/Bf-dbS9CcRU/0.jpg" alt="" /></a></p>]]></content><author><name></name></author><category term="copilot" /><summary type="html"><![CDATA[Copilot 副駕駛，去年在開發者圈還算流行的名詞，想不到今年就要面向所有的生產力工作者]]></summary></entry><entry><title type="html">ChatGPT 4.0: Hello World</title><link href="http://localhost:4000/chatgpt/about-chat-gpt-4/" rel="alternate" type="text/html" title="ChatGPT 4.0: Hello World" /><published>2023-03-15T10:02:00+08:00</published><updated>2023-03-15T10:02:00+08:00</updated><id>http://localhost:4000/chatgpt/about-chat-gpt-4</id><content type="html" xml:base="http://localhost:4000/chatgpt/about-chat-gpt-4/"><![CDATA[<h2 id="釋出">釋出</h2>
+<p>ChatGPT 4.0 於2023-03-14 <a href="https://openai.com/research/gpt-4">Release</a>，首批使用者可以在 <a href="https://chat.openai.com">chat.openai.com</a> 裡提前體驗。</p>
+
+<p>此外，ChatGPT 4.0 也將提供API的服務，雖然實際上線時間還沒公佈，但可使用的模型與價格方案已先公佈。</p>
+
+<h2 id="gpt-4k">gpt-4k</h2>
+<p>最大可到 8k的內文（約13頁的純文字檔），每1k的 prompt token 是0.03美金 + 每1k的 completion token是 0.12美金</p>
+
+<h2 id="gpt-4-32k">gpt-4-32k</h2>
+<p>最大可到 32k的內文（約13頁的純文字檔），每1k的 prompt token 是0.06美金 + 每1k的 completion token是 0.12美金</p>
+
+<p>相較於 gtp-3-turbo 僅寫上每1k 0.002美金，貴上了不少</p>
+
+<p><img src="/assets/img/2023-03-15-10.16.34-gpt-price.png" width="100%" /></p>]]></content><author><name></name></author><category term="chatgpt" /><summary type="html"><![CDATA[釋出 ChatGPT 4.0 於2023-03-14 Release，首批使用者可以在 chat.openai.com 裡提前體驗。]]></summary></entry></feed>

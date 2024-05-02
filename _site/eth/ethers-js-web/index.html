@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<html lang="en"><head>
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3750932727344358"
+     crossorigin="anonymous">
+    </script>
+   <title>Jakevin’s Blog | 這是一個技術相關、生活相關、隨便的記事本</title>
+   <meta name="generator" content="Jekyll v4.3.2" />
+   <meta property="og:title" content="Jakevin’s Blog" />
+   <meta property="og:locale" content="en_US" />
+   <meta name="description" content="這是一個技術相關、生活相關、隨便的記事本" />
+   <meta property="og:description" content="這是一個技術相關、生活相關、隨便的記事本" />
+   <link rel="canonical" href="http://localhost:4000/" />
+   <meta property="og:url" content="http://localhost:4000/" />
+   <meta property="og:site_name" content="Jakevin’s Blog" />
+   <meta property="og:type" content="website" />
+   <meta name="twitter:card" content="summary" />
+   <meta property="twitter:title" content="Jakevin’s Blog" />
+   <script type="application/ld+json">
+   {"@context":"https://schema.org","@type":"WebSite","description":"這是一個技術相關、生活相關、隨便的記事本","headline":"Jakevin’s Blog","name":"Jakevin’s Blog","url":"http://localhost:4000/"}</script>
+   <!-- End Jekyll SEO tag -->
+   <link rel="stylesheet" href="/assets/main.css"><body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Jakevin&#39;s Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">用Ethers.js，前端錢包綁定實作</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2023-03-21T21:38:00+08:00" itemprop="datePublished">Mar 21, 2023
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>因公司專案開發的需求，一邊學習、一邊筆記
+過程相當單純，使用 ethers.js，所有的前端框架都可使用</p>
+
+<h2 id="安裝-ethersjs">安裝 Ethers.js</h2>
+
+<p>套件的官網 <a href="https://www.npmjs.com/package/ethers">https://www.npmjs.com/package/ethers</a></p>
+
+<p>中文說明 <a href="https://learnblockchain.cn/ethers_v5/">https://learnblockchain.cn/ethers_v5/</a></p>
+
+<p>英文說明 <a href="https://docs.ethers.org/v5/">https://docs.ethers.org/v5/</a></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm install ethers
+</code></pre></div></div>
+
+<h2 id="引用">引用</h2>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//node </span>
+<span class="kd">const</span> <span class="p">{</span> <span class="nx">ethers</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">"</span><span class="s2">ethers</span><span class="dl">"</span><span class="p">);</span>
+
+<span class="c1">//ES6 or TypeScript</span>
+<span class="k">import</span> <span class="p">{</span> <span class="nx">ethers</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">ethers</span><span class="dl">"</span><span class="p">;</span>
+</code></pre></div></div>
+
+<h2 id="檢查錢包是否存在">檢查錢包是否存在</h2>
+<p>整個流程的第一步，檢查錢包系統是否存在，如果不存在的話後面流程也不用走了</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">async</span> <span class="kd">function</span> <span class="nx">connect</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">try</span> <span class="p">{</span>
+        <span class="kd">const</span> <span class="p">{</span> <span class="nx">ethereum</span> <span class="p">}</span> <span class="o">=</span> <span class="nb">window</span><span class="p">;</span>
+        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">ethereum</span><span class="p">)</span> <span class="p">{</span>
+            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">setError</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">Metamask not installed!</span><span class="dl">"</span><span class="p">);</span>
+            <span class="k">return</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">error</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="綁定錢包">綁定錢包</h2>
+<p>最重要的流程，會打開錢包App，尋求認證</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="k">async</span> <span class="kd">function</span> <span class="nx">requestAccess</span><span class="p">()</span> <span class="p">{</span>
+      <span class="kd">const</span> <span class="p">{</span> <span class="nx">ethereum</span> <span class="p">}</span> <span class="o">=</span> <span class="nb">window</span><span class="p">;</span>
+      <span class="kd">const</span> <span class="nx">accounts</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">ethereum</span><span class="p">.</span><span class="nx">request</span><span class="p">({</span>
+          <span class="na">method</span><span class="p">:</span> <span class="dl">"</span><span class="s2">eth_requestAccounts</span><span class="dl">"</span><span class="p">,</span>
+      <span class="p">});</span>
+      <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">setAccount</span><span class="dl">"</span><span class="p">,</span> <span class="nx">accounts</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+  <span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="檢查是否已經綁定錢包">檢查是否已經綁定錢包</h2>
+<p>錢包是否提供頁面存取的權限</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="k">async</span> <span class="kd">function</span> <span class="nx">checkIfConnected</span><span class="p">()</span> <span class="p">{</span>
+      <span class="kd">const</span> <span class="p">{</span> <span class="nx">ethereum</span> <span class="p">}</span> <span class="o">=</span> <span class="nb">window</span><span class="p">;</span>
+      <span class="kd">const</span> <span class="nx">accounts</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">ethereum</span><span class="p">.</span><span class="nx">request</span><span class="p">({</span> <span class="na">method</span><span class="p">:</span> <span class="dl">"</span><span class="s2">eth_accounts</span><span class="dl">"</span> <span class="p">});</span>
+      <span class="k">if</span> <span class="p">(</span><span class="nx">accounts</span><span class="p">.</span><span class="nx">length</span> <span class="o">!==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+          <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">setAccount</span><span class="dl">"</span><span class="p">,</span> <span class="nx">accounts</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+          <span class="k">return</span> <span class="kc">true</span><span class="p">;</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+          <span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
+      <span class="p">}</span>
+  <span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="取得簽名">取得簽名</h2>
+<p>拿到錢包的Address</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="k">async</span> <span class="kd">function</span> <span class="nx">getSigner</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">try</span> <span class="p">{</span>
+        <span class="kd">const</span> <span class="p">{</span> <span class="nx">ethereum</span> <span class="p">}</span> <span class="o">=</span> <span class="nb">window</span><span class="p">;</span>
+        <span class="kd">const</span> <span class="nx">provider</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">ethers</span><span class="p">.</span><span class="nx">providers</span><span class="p">.</span><span class="nx">Web3Provider</span><span class="p">(</span><span class="nx">ethereum</span><span class="p">);</span>
+        <span class="kd">const</span> <span class="nx">signer</span> <span class="o">=</span> <span class="nx">provider</span><span class="p">.</span><span class="nx">getSigner</span><span class="p">();</span>
+        <span class="kd">const</span> <span class="nx">selfAddress</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">signer</span><span class="p">.</span><span class="nx">getAddress</span><span class="p">()</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">selfAddress</span><span class="dl">"</span><span class="p">,</span><span class="nx">selfAddress</span><span class="p">)</span>
+        <span class="k">return</span> <span class="nx">selfAddress</span>
+    <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">error</span><span class="p">);</span>
+        <span class="k">return</span> <span class="kc">null</span><span class="p">;</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+</code></pre></div></div>
+
+  </div><a class="u-url" href="/eth/ethers-js-web/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Jakevin&#39;s Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Jakevin&#39;s Blog</li><li><a class="u-email" href="mailto:kevin5251984@gmail.com">kevin5251984@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://www.facebook.com/jakevin"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#facebook"></use></svg> <span class="username">jakevin</span></a></li><li><a href="https://github.com/Jakevin"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">Jakevin</span></a></li><li><a href="https://www.twitter.com/jakevin16"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">jakevin16</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>這是一個技術相關、生活相關、隨便的記事本</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
