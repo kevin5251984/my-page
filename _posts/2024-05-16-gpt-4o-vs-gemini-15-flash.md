@@ -31,9 +31,11 @@ Gemini 1.5 Flash | 輸入 0.25美金/1M Token | 輸出 0.75美金/1M Token
 結果：
 
 GPT-4o：
+
 <img src="/assets/img/2024-05-16-gpt-4o-vs-gemini-15-flash-02.png" width="60%">
 
 Gemini 1.5 Flash：
+
 <img src="/assets/img/2024-05-16-gpt-4o-vs-gemini-15-flash-03.png" width="60%">
 
 GPT-4o 乍看下沒什麼問題，但內容不少都沒有翻譯出來，還有幻想出來的菜單內容。另外，稅前稅後的價格差異太大了！
@@ -47,9 +49,11 @@ Gemini 1.5 Flash，根本沒有翻譯嘛... 但他對金額的判斷有做出來
 <img src="/assets/img/2024-05-16-gpt-4o-vs-gemini-15-flash-04.png" width="60%">
 
 GPT-4o：
+
 <img src="/assets/img/2024-05-16-gpt-4o-vs-gemini-15-flash-05.png" width="60%">
 
 Gemini 1.5 Flash：
+
 <img src="/assets/img/2024-05-16-gpt-4o-vs-gemini-15-flash-06.png" width="60%">
 
 答案來說，兩個都對了，但GPT-4o的回答更加完整
@@ -61,9 +65,11 @@ Gemini 1.5 Flash：
 <img src="/assets/img/2024-05-16-gpt-4o-vs-gemini-15-flash-07.png" width="60%">
 
 GPT-4o：
+
 <img src="/assets/img/2024-05-16-gpt-4o-vs-gemini-15-flash-08.png" width="60%">
 
 Gemini 1.5 Flash：
+
 <img src="/assets/img/2024-05-16-gpt-4o-vs-gemini-15-flash-09.png" width="60%">
 
 怪力也是兩個都對了，但GPT-4o的回答更加完整
@@ -75,9 +81,11 @@ Gemini 1.5 Flash：
 <img src="/assets/img/2024-05-16-gpt-4o-vs-gemini-15-flash-10.png" width="60%">
 
 GPT-4o：
+
 <img src="/assets/img/2024-05-16-gpt-4o-vs-gemini-15-flash-11.png" width="60%">
 
 Gemini 1.5 Flash：
+
 <img src="/assets/img/2024-05-16-gpt-4o-vs-gemini-15-flash-12.png" width="60%">
 
 這個梗圖來說，GPT-4o回答的就不錯了。 Gemini也不差，但頑皮彈你沒寫出來啊。
