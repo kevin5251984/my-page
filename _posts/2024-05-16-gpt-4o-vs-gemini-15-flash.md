@@ -14,9 +14,9 @@ categories: chatgpt
 
 ## 成本
 
-GPT-4o 輸入 5美金/1M Token | 輸出 15美金/1M Token
+GPT-4o | 輸入 5美金/1M Token | 輸出 15美金/1M Token
 
-Gemini 1.5 Flash 輸入 0.25美金/1M Token | 輸出 0.75美金/1M Token
+Gemini 1.5 Flash | 輸入 0.25美金/1M Token | 輸出 0.75美金/1M Token
 
 就成本來說，Gemini 1.5 Flash真的有相當相當大的優勢
 
