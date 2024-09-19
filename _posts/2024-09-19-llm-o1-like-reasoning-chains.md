@@ -1,5 +1,10 @@
+---
+layout: post
+title:  "使用思維鏈，提高問題回答的正確率"
+date:   2024-09-19 11:42:00 +0900
+categories: chatgpt
+---
 
-使用思維鏈，提高問題回答的正確率
 
 [參考來源](https://github.com/bklieger-groq/g1)
 
