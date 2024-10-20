@@ -5,7 +5,7 @@ date:   2024-10-20 11:42:00 +0900
 categories: chatgpt
 ---
 
-[一起來用 LLM Function Calling](./2024-10-21-structured-outputs)
+[一起來用 LLM Function Calling](./2024-10-20-structured-outputs)
 
 [OpenAI Function calling](https://platform.openai.com/docs/guides/function-calling)
 
