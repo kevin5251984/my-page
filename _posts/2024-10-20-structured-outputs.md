@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "一起來用 Structured Outputs"
-date:   2024-10-21 11:42:00 +0900
+date:   2024-10-20 23:42:00 +0900
 categories: chatgpt
 ---
 
