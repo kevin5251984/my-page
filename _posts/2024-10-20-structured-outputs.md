@@ -7,6 +7,8 @@ categories: chatgpt
 
 [一起來用 LLM Function Calling](./function-calling)
 
+[一起來用 LLM Audio generation](./audio-generation)
+
 [OpenAI Structured Outputs](https://platform.openai.com/docs/guides/structured-outputs)
 
 這是OpenAI在2024，是Function Calling推出一年後再一次對輸出格式的重大更新。

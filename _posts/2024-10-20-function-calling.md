@@ -7,7 +7,9 @@ categories: chatgpt
 
 [一起來用 LLM Function Calling](./structured-outputs)
 
-[OpenAI Function calling](https://platform.openai.com/docs/guides/function-calling)
+[一起來用 LLM Audio generation](./audio-generation)
+
+[OpenAI Function Calling](https://platform.openai.com/docs/guides/function-calling)
 
 這是OpenAI在2023/06推出的功能，基於文字生成後，能給相對穩定的輸出格式。
 
@@ -57,9 +59,9 @@ categories: chatgpt
 
 他確實回應我要的答案，但這個答案你很難回到你的程式碼裡去做二次應用。比方說只顯示中文，或是要只顯示中文與日文。
 
-接下來看 function calling
+接下來看 Function Calling
 
-#### 情境：需要將中文，翻譯成指定的多個語系，並使用function calling。
+#### 情境：需要將中文，翻譯成指定的多個語系，並使用Function Calling。
 
 ```
 {
@@ -112,7 +114,7 @@ categories: chatgpt
 
 ```
 
-就規格上可以看到，跟過往單純使用 `messages` 做為input來說，變的複雜不少，所以一般情況下不會使用到 function calling 的功能。
+就規格上可以看到，跟過往單純使用 `messages` 做為input來說，變的複雜不少，所以一般情況下不會使用到 Function Calling 的功能。
 
 `tools` 工具箱，在這邊你可以定義各式個樣的工具，讓AI的回應時使用你的工具來回答。
 
@@ -154,9 +156,9 @@ categories: chatgpt
 
 他確實把翻譯結果用我指定的JSON格式回傳。但少了一個 `howManyLangs`，因為這不是我必定要輸出的格式。
 
-但，function calling一定是萬能的嗎？ 讓我們看下去。
+但，Function Calling一定是萬能的嗎？ 讓我們看下去。
 
-#### 情境：使用function calling計算有多少個輸出語種。
+#### 情境：使用Function Calling計算有多少個輸出語種。
 
 當我把 `howManyLangs` 加到 `required`後，就變這樣
 
@@ -209,7 +211,7 @@ categories: chatgpt
 
 所以程式的後處理很變得也很重要！
 
-#### 情境：使用function calling，tools中有多種工具
+#### 情境：使用Function Calling，tools中有多種工具
 
 再來，我們將 function 拆成三個好了，翻簡中、翻日文、翻英文，三個工具
 
@@ -333,7 +335,7 @@ categories: chatgpt
 
 確確實實的用了三個function來回應我的問題，在做後處理上會方便不少。
 
-#### 情境：使用function calling，只執行單一個工具
+#### 情境：使用Function Calling，只執行單一個工具
 
 再來，我們如果有很多工具，但只要指定其中一個工作時，可以對`tool_choice`做改變
 
@@ -372,7 +374,7 @@ categories: chatgpt
 }
 ```
 
-#### 情境：任務與function calling無關時。
+#### 情境：任務與Function Calling無關時。
 
 最後，我們再實驗，如果你的題目壓根與翻譯無關時，會發生什麼事
 
@@ -530,10 +532,10 @@ OpenAI裡給了一個有趣的案例是，設定衣服的大小 function，如�
 
 #### 總結
 
-Function calling確實能夠大大提升AI回答的可處理性，但必要的例外處理也一定要加上，避免非遇期的錯誤發生。
+Function Calling確實能夠大大提升AI回答的可處理性，但必要的例外處理也一定要加上，避免非遇期的錯誤發生。
 
 但是實驗中有發現兩件要注意的事
 
-1. function calling也確實會造成 token的數量上升，一開始可能不會有影響，但多輪談話後，成本上的增長也是要注意的。
+1. Function Calling也確實會造成 token的數量上升，一開始可能不會有影響，但多輪談話後，成本上的增長也是要注意的。
 
-2. function calling會造成回應時間拉長，從原本的800ms，增長到1200~1700ms不等，如果是做即時應用的話，要把這個因素考量進去。
+2. Function Calling會造成回應時間拉長，從原本的800ms，增長到1200~1700ms不等，如果是做即時應用的話，要把這個因素考量進去。
