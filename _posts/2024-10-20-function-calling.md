@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "一起來用 Function Calling"
-date:   2024-09-19 11:42:00 +0900
+date:   2024-10-20 11:42:00 +0900
 categories: chatgpt
 ---
 
@@ -11,7 +11,7 @@ categories: chatgpt
 
 我主要做翻譯工具為主，所以介紹的案例會偏向翻譯應用這塊。
 
-### Function Calling Input
+### Function Calling
 
 #### 情境：需要將中文，翻譯成指定的多個語系。
 
@@ -56,6 +56,8 @@ categories: chatgpt
 他確實回應我要的答案，但這個答案你很難回到你的程式碼裡去做二次應用。比方說只顯示中文，或是要只顯示中文與日文。
 
 接下來看 function calling
+
+#### 情境：需要將中文，翻譯成指定的多個語系，並使用function calling。
 
 ```
 {
@@ -152,6 +154,8 @@ categories: chatgpt
 
 但，function calling一定是萬能的嗎？ 讓我們看下去。
 
+#### 情境：使用function calling計算有多少個輸出語種。
+
 當我把 `howManyLangs` 加到 `required`後，就變這樣
 
 輸入，省略部份
@@ -203,7 +207,9 @@ categories: chatgpt
 
 所以程式的後處理很變得也很重要！
 
-再來，我們將 function 拆成三個好了，翻簡中、翻日文、翻英文，三個工作
+#### 情境：使用function calling，tools中有多種工具
+
+再來，我們將 function 拆成三個好了，翻簡中、翻日文、翻英文，三個工具
 
 ```
 {
@@ -324,6 +330,8 @@ categories: chatgpt
 ```
 
 確確實實的用了三個function來回應我的問題，在做後處理上會方便不少。
+
+#### 情境：使用function calling，只執行單一個工具
 
 再來，我們如果有很多工具，但只要指定其中一個工作時，可以對`tool_choice`做改變
 
