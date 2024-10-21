@@ -5,9 +5,9 @@ date:   2024-10-20 23:42:00 +0900
 categories: chatgpt
 ---
 
-[一起來用 LLM Function Calling](./function-calling)
+[一起來用 LLM Function Calling](../function-calling)
 
-[一起來用 LLM Structured Outputs](./structured-outputs)
+[一起來用 LLM Structured Outputs](../structured-outputs)
 
 [OpenAI Audio generation](https://platform.openai.com/docs/guides/audio/audio-generation)
 
