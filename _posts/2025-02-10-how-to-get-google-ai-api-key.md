@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "如何取得Google AI studio API Key"
-date:   2025-02-12 23:42:00 +0900
+date:   2025-02-10 23:42:00 +0900
 categories: google
 ---
 

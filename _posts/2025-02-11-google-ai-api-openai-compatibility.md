@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "如何讓Google Gemini API 相容OpenAI格式"
-date:   2025-02-13 23:42:00 +0900
+date:   2025-02-11 23:42:00 +0900
 categories: google
 ---
 
