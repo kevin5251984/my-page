@@ -8,22 +8,27 @@ categories: google
 網址：[Google AI Studio](https://aistudio.google.com/)
 
 選 `Get API key`
+
 <img src="/assets/img/2025-02-12-how-to-get-google-ai-api-key-01.png" width="60%">
 
 選 `Create API key`
+
 <img src="/assets/img/2025-02-12-how-to-get-google-ai-api-key-02.png" width="60%">
 
 選一個專案，沒有的話可能會要求你建一個新的
+
 <img src="/assets/img/2025-02-12-how-to-get-google-ai-api-key-03.png" width="60%">
 
 這樣就完成了，把剛剛拿到的key Copy下來
+
 <img src="/assets/img/2025-02-12-how-to-get-google-ai-api-key-04.png" width="60%">
 
 如果忘了key，只要點一下key後，就會跳出確認視窗
+
 <img src="/assets/img/2025-02-12-how-to-get-google-ai-api-key-05.png" width="60%">
 
 後續：
-
+[如何讓Google Gemini API 相容OpenAI格式](https://www.jakevin.uk/google/google-ai-api-openai-compatibility/)
 
 參考來源：
 
